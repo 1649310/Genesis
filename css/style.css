@@ -205,15 +205,15 @@ button, input {
     padding-right: 0; }
 
 .menu__link {
-  font: 700 15px 'Muli';
+  font: 700 15px "Muli", sans-serif;
   text-transform: uppercase;
   color: #fff; }
   .menu__link:hover {
     text-decoration: underline;
     color: #ea053a;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s; }
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
 
 .menu__link_active {
   text-decoration: underline;
@@ -247,7 +247,7 @@ button, input {
           align-items: center; }
 
 .title {
-  font: 700 26px 'Muli';
+  font: 700 26px "Muli", sans-serif;
   text-transform: uppercase;
   color: #393939; }
 
@@ -255,7 +255,7 @@ button, input {
   display: block;
   padding: 14px 42px 10px;
   color: #fff;
-  font: 700 15px 'Muli';
+  font: 700 15px "Muli", sans-serif;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ea053a), to(#d0021b));
   background-image: -webkit-linear-gradient(top, #ea053a 0%, #d0021b 100%);
   background-image: -o-linear-gradient(top, #ea053a 0%, #d0021b 100%);
@@ -268,9 +268,9 @@ button, input {
   .btn:hover {
     background: #fff;
     color: #ea053a;
-    -webkit-transition: .4s;
-    -o-transition: .4s;
-    transition: .4s; }
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
 
 .section-main__pic {
   max-width: 940px;
@@ -282,7 +282,7 @@ button, input {
 
 .section-menu__desc-text {
   color: #393939;
-  font: 400 15px 'Muli';
+  font: 400 15px "Muli", sans-serif;
   margin-bottom: 40px; }
 
 .section-menu__nav {
@@ -295,21 +295,21 @@ button, input {
   padding-bottom: 40px; }
 
 .nav__number {
-  font: 700 16px 'Muli';
+  font: 700 16px "Muli", sans-serif;
   color: #393245;
   margin-left: 80px;
   margin-right: 20px; }
 
 .nav__link {
   color: #393245;
-  font: 400 18px 'Muli';
+  font: 400 18px "Muli", sans-serif;
   line-height: 40px; }
   .nav__link:hover {
     text-decoration: underline;
     font-weight: bold;
-    -webkit-transition: .4s;
-    -o-transition: .4s;
-    transition: .4s;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
     color: #2d2736; }
 
 .nav__link_active {
@@ -324,18 +324,17 @@ button, input {
 
 .section-desc__title {
   color: #393939;
-  font: 700 26px 'Muli';
+  font: 700 26px "Muli", sans-serif;
   margin-bottom: 14px; }
 
 .section-desc__text p {
-  font: 300 15px 'Muli';
+  font: 300 15px "Muli", sans-serif;
   color: #393939;
   margin-bottom: 20px;
   line-height: 20px; }
 
 .section-desc__img {
   max-width: 600px;
-  height: 300px;
   overflow: hidden;
   display: inline; }
 
@@ -343,7 +342,7 @@ button, input {
   margin-top: 60px; }
 
 .section-title {
-  font: 800 18px 'Muli';
+  font: 800 18px "Muli", sans-serif;
   text-transform: uppercase;
   color: #1c222d;
   margin-bottom: 20px; }
@@ -374,7 +373,7 @@ button, input {
 
 .sites__head-title {
   color: #232632;
-  font: 700 15px 'Muli';
+  font: 700 15px "Muli", sans-serif;
   margin-bottom: 5px; }
 
 .sites__desc {
@@ -390,18 +389,18 @@ button, input {
 
 .sites__desc-rating {
   color: #000;
-  font: 700 12px 'Muli';
+  font: 700 12px "Muli", sans-serif;
   margin-right: 6px; }
 
 .sites__link {
   color: #4a90e2;
-  font: 700 12px 'Muli'; }
+  font: 700 12px "Muli", sans-serif; }
   .sites__link:hover {
     color: darken #4a90e2, 20%;
     text-decoration: underline;
-    -webkit-transition: .4s;
-    -o-transition: .4s;
-    transition: .4s;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
     font-size: 13px; }
 
 .section-people {
@@ -415,15 +414,15 @@ button, input {
 
 .section-people__name {
   color: #232632;
-  font: 700 15px 'Muli'; }
+  font: 700 15px "Muli", sans-serif; }
 
 .section-people__about {
   color: #1b202c;
-  font: 400 12px 'Mili';
+  font: 400 12px "Muli", sans-serif;
   margin-bottom: 25px; }
 
 .button {
-  font: 700 15px 'Muli';
+  font: 700 15px "Muli", sans-serif;
   color: #fff;
   border: none;
   -webkit-border-radius: 3px;
@@ -437,9 +436,9 @@ button, input {
   .button_dislike:hover {
     background-color: #fff;
     color: #a7b4ba;
-    -webkit-transition: .4s;
-    -o-transition: .4s;
-    transition: .4s;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
     border: 1px solid #a7b4ba; }
 
 .button_like {
@@ -452,9 +451,9 @@ button, input {
   .button_like:hover {
     background: #fff;
     color: #369920;
-    -webkit-transition: .4s;
-    -o-transition: .4s;
-    transition: .4s;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
     border: 1px solid #369920; }
 
 .footer {
@@ -498,7 +497,7 @@ button, input {
 
 .footer-text {
   color: #fff;
-  font: 400 17px 'Abril Fatface';
+  font: 400 17px "Abril Fatface", cursive;
   margin-bottom: 10px; }
 
 .footer__field {
@@ -511,14 +510,14 @@ button, input {
   position: relative; }
 
 .footer__input {
-  font: 400 15px 'Muli';
+  font: 400 15px "Muli", sans-serif;
   background: none;
   padding: 10px 200px 10px 35px;
   width: 100%; }
 
 .footer__submit {
   color: #d0021b;
-  font: 700 15px 'Muli';
+  font: 700 15px "Muli", sans-serif;
   background-color: #fff;
   opacity: 0.8;
   padding: 10px 50px 10px;
@@ -530,9 +529,9 @@ button, input {
     color: #fff;
     background: #d0021b;
     border-left: 1px solid #fff;
-    -webkit-transition: .4s;
-    -o-transition: .4s;
-    transition: .4s; }
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
 
 .about {
   display: -webkit-box;
@@ -547,31 +546,43 @@ button, input {
   color: #fff;
   text-transform: uppercase;
   opacity: 0.8;
-  font: 700 17px 'Muti';
+  font: 700 17px "Muti";
   letter-spacing: 0.5px; }
   .about__link:hover {
     text-decoration: underline;
     color: #ea053a;
-    -webkit-transition: .4s;
-    -o-transition: .4s;
-    transition: .4s; }
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
 
 .about__item {
   margin-right: 30px; }
   .about__item:last-child {
     margin-right: 0; }
 
+@media screen and (max-width: 1200px) {
+  .container-footer {
+    width: 920px; }
+  .footer__left {
+    width: 40%; }
+  .footer__submit {
+    padding: 10px 30px 10px; } }
+
 @media screen and (max-width: 940px) {
   .container {
     padding: 0 16px; }
   .container-footer {
-    padding: 25px 16px 0; }
+    width: 740px;
+    padding: 25px 16px 0;
+    margin-left: 0; }
   .footer {
     height: 210px;
     background-position: 0% 10%; }
   .footer__left {
-    width: 50%;
+    width: 65%;
     margin-bottom: 30px; }
+  .footer__submit {
+    padding: 10px 50px 10px; }
   .footer__right {
     width: 100%; } }
 
@@ -626,7 +637,11 @@ button, input {
   .section-sites {
     display: none; }
   .section-people {
-    display: none; } }
+    display: none; }
+  .container-footer {
+    width: 100%; }
+  .footer__submit {
+    padding: 10px 30px 10px; } }
 
 @media screen and (max-width: 600px) {
   .btn:hover {
@@ -642,6 +657,8 @@ button, input {
     height: auto; }
   .footer {
     height: 250px; }
+  .footer__left {
+    width: 100%; }
   .footer__field {
     width: 75%; }
   .footer__input {
@@ -686,7 +703,7 @@ button, input {
     margin-bottom: 10px; }
   .btn {
     color: #4a90e2;
-    font: 700 15px 'Muli';
+    font: 700 15px "Muli", sans-serif;
     padding: 0;
     background-image: none;
     border: none;
@@ -737,7 +754,7 @@ button, input {
   .footer__form {
     margin-bottom: 25px; }
   .footer__field {
-    width: 50%; }
+    width: 80%; }
   .footer__input {
     padding: 10px 20px;
     -webkit-border-radius: 3px 3px 0 0;
@@ -750,6 +767,10 @@ button, input {
     border: 2px solid #fff;
     -webkit-border-radius: 0 0 3px 3px;
             border-radius: 0 0 3px 3px; } }
+
+@media screen and (max-width: 375px) {
+  .footer__field {
+    width: 100%; } }
 
 @media (max-width: 740px) {
   .burger {
@@ -764,10 +785,10 @@ button, input {
             flex-wrap: wrap;
     position: absolute;
     z-index: 12;
-    right: 20px;
-    top: 22px; }
+    right: 30px;
+    top: 20px; }
   .burger span {
-    width: 18px;
+    width: 25px;
     height: 2px;
     position: absolute;
     background-color: #fff;
